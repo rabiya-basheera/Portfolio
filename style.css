@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainContainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+}
+.header{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    color:dimgray;
+}
+.header a{
+    text-decoration: none;    
+    font-size: x-large;
+    color: rgb(57, 54, 54);
+}
+.header a:hover{
+    color: rgb(179, 47, 255);
+}
+.mainContent{
+    height: 70%;
+    text-align:center;
+    position: relative;
+    top: 5%;
+    /* color: rgb(57, 54, 54); */
+}
+.mainContainer h1{
+    color:rgb(57, 54, 54) ;
+    font-style: italic;
+}
+.mainContainer a{
+    color: rgb(57, 54, 54);
+    font-size: xx-large;
+}
+.text{
+    height: 80%;
+}
+.text p{
+    font-size: x-large;
+    position: relative;
+    top: 5%;
+}
+.text h2{
+    font-size: xx-large;
+}
+.WELCOME{
+    width: 12%;
+    background-color: burlywood;
+    animation-name: welcome;
+    animation-duration: 20s;
+    animation-iteration-count: 2;
+}
+@keyframes welcome{
+    from{color: rgb(255, 0, 81);}
+    to{color: rgb(30, 255, 0);}
+}
+.rabiya{
+    /* width: 10%; */
+    text-align: center;
+    color: rgb(57, 54, 54);
+    animation-name:run;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+}
+@keyframes run{
+    from{color: rgb(57, 54, 54);}
+    to{color: rgb(255, 0, 195);}
+}
+h2{
+    animation-name:heading2;
+    animation-duration: 2s;
+    animation-iteration-count: 50 ;
+    animation-direction: reverse;
+}
+@keyframes heading2{
+    from{color: deeppink;}
+    to{color: rgb(0, 255, 98);}
+}
+.icons{
+    height: 20%;
+    width: 10%;
+    display: flex;
+    align-items:last baseline;
+    justify-content: space-around;
+}
+.homeFed{
+    height: 80%;
+}
+.homeFed h1{
+    font-size: 100px;
+}
+.homeFed h5,h4{
+    font-size: x-large;
+}
+.contactText{
+    height: 80%;
+    /* display: flex; */
+}
+.contactText h2{
+    font-size: xx-large;
+}
+.contactText span{
+    font-size: x-large;
+    position: relative;
+    top: 5%;
+}
+/* project */
+.project{
+    height: 80%;
+}
+.project-text{
+    height: 20%;
+    /* background: #ff23; */
+}
+.project-text p{
+    font-size: x-large;
+}
+.project-content{
+    height: 80%;
+    /* background: #ff23ff; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.vb p{
+    font-size: larger;
+}
+.vb-btn{
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+}
+.vb-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(57, 54, 54);
+}
+.python p{
+    font-size: larger;
+}
+.python-btn{
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+}
+.python-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(57, 54, 54);
+}
+/* about */
+.tab-content li{
+    color: red;
+    font-size: xx-large;
+}
+.footer{
+    height: 10%;
+    font-size: x-large;
+    color: rgb(57, 54, 54);
+    position: relative;
+    top: 10%;
+}
+/* form */
+.forms{
+    width: 30%;
+    height: 70%;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    position: relative;
+    left: 35%;
+}
+.h1f{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(57, 54, 54);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 3px;
+}
+.labelf{
+    margin-left: 10%;
+    font-size: larger;
+    color: rgb(57, 54, 54);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+.inpf{
+    width: 80%;
+    /* margin: 5% auto; */
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(57, 54, 54);
+    border-bottom: 1px solid rgba(57, 54, 54, 0.6);
+}
+.btnf{
+    width: 30%;
+    margin: 3% auto;
+    font-size:larger ;
+    background: transparent;
+    color: rgb(57, 54, 54);
+}
+#textarea{
+    background-color: transparent;
+    border: 0.1px solid rgb(57, 54, 54);
+}
